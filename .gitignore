@@ -1,0 +1,14 @@
+# Arduino / build
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Local secrets
+src/secrets.h
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

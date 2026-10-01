@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="1100" height="650" fill="#f7f9fc"/>
+<text x="550" y="45" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">Smart Energy Meter — Wiring Overview</text>
+<rect x="400" y="160" width="300" height="300" rx="20" fill="#202b38"/>
+<text x="550" y="235" text-anchor="middle" fill="white" font-family="Arial" font-size="30" font-weight="700">ESP32</text>
+<text x="550" y="275" text-anchor="middle" fill="white" font-family="Arial" font-size="18">GPIO 34 → Voltage ADC</text>
+<text x="550" y="310" text-anchor="middle" fill="white" font-family="Arial" font-size="18">GPIO 35 → Current ADC</text>
+<text x="550" y="345" text-anchor="middle" fill="white" font-family="Arial" font-size="18">GPIO 21 → OLED SDA</text>
+<text x="550" y="380" text-anchor="middle" fill="white" font-family="Arial" font-size="18">GPIO 22 → OLED SCL</text>
+<rect x="60" y="150" width="240" height="110" rx="15" fill="#e8f1ff" stroke="#3478c9" stroke-width="3"/>
+<text x="180" y="190" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Voltage Sensor</text><text x="180" y="225" text-anchor="middle" font-family="Arial" font-size="16">ZMPT101B / isolated module</text>
+<rect x="60" y="340" width="240" height="110" rx="15" fill="#fff1df" stroke="#e08a16" stroke-width="3"/>
+<text x="180" y="380" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Current Sensor</text><text x="180" y="415" text-anchor="middle" font-family="Arial" font-size="16">ACS712</text>
+<rect x="800" y="180" width="220" height="120" rx="15" fill="#e8f8ed" stroke="#3b9b59" stroke-width="3"/>
+<text x="910" y="225" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">OLED</text><text x="910" y="260" text-anchor="middle" font-family="Arial" font-size="16">SSD1306 • I2C</text>
+<rect x="800" y="360" width="220" height="120" rx="15" fill="#f1eaff" stroke="#7856b5" stroke-width="3"/>
+<text x="910" y="405" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">IoT Cloud</text><text x="910" y="440" text-anchor="middle" font-family="Arial" font-size="16">ThingSpeak / HTTP</text>
+<line x1="300" y1="205" x2="400" y2="250" stroke="#3478c9" stroke-width="5"/>
+<line x1="300" y1="395" x2="400" y2="310" stroke="#e08a16" stroke-width="5"/>
+<line x1="700" y1="270" x2="800" y2="240" stroke="#3b9b59" stroke-width="5"/>
+<line x1="700" y1="370" x2="800" y2="420" stroke="#7856b5" stroke-width="5"/>
+<text x="550" y="540" text-anchor="middle" font-family="Arial" font-size="17" fill="#8a1f11" font-weight="700">SAFETY: Do not connect mains directly to the ESP32 or breadboard.</text>
+<text x="550" y="570" text-anchor="middle" font-family="Arial" font-size="15" fill="#555">Use properly rated isolated sensing hardware and professional electrical practices.</text>
+</svg>
